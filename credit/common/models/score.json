@@ -1,0 +1,32 @@
+{
+  "name": "score",
+  "plural": "scores",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "id": true,
+      "defaultFn": "uuidv4"
+    },
+    "customerId": {
+      "type": "string",
+      "required": true
+    },
+    "score": {
+      "type": "number",
+      "required": true
+    },
+    "date": {
+      "type": "date",
+      "defaultFn": "now"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

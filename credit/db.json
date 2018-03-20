@@ -1,0 +1,12 @@
+{
+  "ids": {
+    "score": 4
+  },
+  "models": {
+    "score": {
+      "08c61e63-5078-4ae4-b5d2-44e75ccaf331": "{\"id\":\"08c61e63-5078-4ae4-b5d2-44e75ccaf331\",\"customerId\":\"415ccafe-aea1-43ef-ba3a-756e98bb4b58\",\"score\":658,\"date\":\"2018-02-01T00:00:00.000Z\"}",
+      "f34da432-6b72-4153-a2ed-3590a64b72b7": "{\"id\":\"f34da432-6b72-4153-a2ed-3590a64b72b7\",\"customerId\":\"415ccafe-aea1-43ef-ba3a-756e98bb4b58\",\"score\":645,\"date\":\"2018-01-01T00:00:00.000Z\"}",
+      "880c4ccf-b0fe-4921-aefa-19814b30d046": "{\"id\":\"880c4ccf-b0fe-4921-aefa-19814b30d046\",\"customerId\":\"415ccafe-aea1-43ef-ba3a-756e98bb4b58\",\"score\":652,\"date\":\"2018-03-01T00:00:00.000Z\"}"
+    }
+  }
+}

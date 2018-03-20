@@ -1,0 +1,6 @@
+---
+PORT: 4002
+logger:
+  level: info
+customers:
+  url: http://localhost:4003
