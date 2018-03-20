@@ -1,0 +1,6 @@
+{
+  "apiServer": "http://localhost:4000/",
+  "customerId": "415ccafe-aea1-43ef-ba3a-756e98bb4b58",
+  "appPasscode": "1234",
+  "githubUrl": "https://github.com/ibm-apiconnect/acmebank"
+}

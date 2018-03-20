@@ -1,0 +1,14 @@
+AcmeBank/.expo
+AcmeBank/.flowconfig
+AcmeBank/node_modules
+accounts/node_modules
+admin/node_modules
+app-backend/node_modules
+credit/node_modules
+customers/node_modules
+documents/node_modules
+investments/node_modules
+mortgages/node_modules
+notifications/node_modules
+realEstate/node_modules
+scripts/node_modules
