@@ -1,0 +1,5 @@
+---
+PORT: 4007
+logger:
+  level: info
+assetUrl: http://localhost:4007/pdf
