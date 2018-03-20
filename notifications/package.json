@@ -1,0 +1,47 @@
+{
+  "name": "acmebank-notifications",
+  "version": "0.0.1",
+  "main": "server/server.js",
+  "author": {
+    "name": "Cody Walker",
+    "email": "cmwalker@us.ibm.com",
+    "url": "https://github.com/codymwalker"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "start": "node .",
+    "build": "docker build -t acmesoftware/notifications .",
+    "publish": "docker push acmesoftware/notifications",
+    "updateBuild": "npm run build && npm run publish"
+  },
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "bunyan-prettystream": "^0.1.3",
+    "compression": "^1.0.3",
+    "cors": "^2.5.2",
+    "helmet": "^3.10.0",
+    "loopback": "^3.0.0",
+    "loopback-boot": "^2.6.5",
+    "loopback-component-explorer": "^5.0.0",
+    "nconf": "^0.10.0",
+    "nconf-yaml": "^1.0.2",
+    "serve-favicon": "^2.0.1",
+    "strong-error-handler": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-config-loopback": "^8.0.0",
+    "nsp": "^2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ibm-apiconnect/acmebank.git"
+  },
+  "license": "MIT",
+  "description": "Investments service supporting the AcmeBank application"
+}

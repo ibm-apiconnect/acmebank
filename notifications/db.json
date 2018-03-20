@@ -1,0 +1,10 @@
+{
+  "ids": {
+    "notification": 74
+  },
+  "models": {
+    "notification": {
+      "db53a09c-fbd9-499f-b61b-1926e59e7618": "{\"id\":\"db53a09c-fbd9-499f-b61b-1926e59e7618\",\"customerId\":\"415ccafe-aea1-43ef-ba3a-756e98bb4b58\",\"type\":\"notice\",\"active\":true,\"unread\":false,\"timestamp\":\"2018-01-10T13:43:48.219Z\",\"title\":\"Welcome to Acme Bank Online Banking\",\"description\":\"We're happy to have you. Please contact us if we can help you in any way.\",\"from\":\"Acme Bank\"}"
+    }
+  }
+}
