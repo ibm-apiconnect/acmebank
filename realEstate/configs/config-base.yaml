@@ -1,0 +1,4 @@
+---
+PORT: 4006
+logger:
+  level: info

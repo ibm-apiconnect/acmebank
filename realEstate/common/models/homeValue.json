@@ -1,0 +1,47 @@
+{
+  "name": "homeValue",
+  "plural": "homeValues",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "id": true,
+      "required": true
+    },
+    "neighborhood": {
+      "type": "string",
+      "required": true
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "state": {
+      "type": "string",
+      "required": true
+    },
+    "metro": {
+      "type": "string"
+    },
+    "county": {
+      "type": "string",
+      "required": true
+    },
+    "bedrooms": {
+      "type": "number",
+      "required": true
+    },
+    "medianValues": {
+      "type": "object",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
