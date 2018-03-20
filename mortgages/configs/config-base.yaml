@@ -1,0 +1,9 @@
+---
+PORT: 4005
+logger:
+  level: trace
+productId: d17dceb6-e272-43e0-833d-c54b04a86d59
+customers:
+  url: http://localhost:4003/api
+accounts:
+  url: http://localhost:4001/api
