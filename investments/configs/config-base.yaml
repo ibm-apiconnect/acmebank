@@ -1,0 +1,8 @@
+---
+PORT: 4004
+logger:
+  level: trace
+customers:
+  url: http://localhost:4003/api
+accounts:
+  url: http://localhost:4001/api

@@ -1,0 +1,79 @@
+[
+  {
+    "id": 0,
+    "name": "Tea on a Sunday afternoon",
+    "description": "Low risk, low stress. This profiles uses a blend of guaranteed CDs and bonds to earn safe gains that you can count on.",
+    "return": 0.03,
+    "risk": "Very Low Risk",
+    "accounts": [
+      {
+        "name": "High-Yield CD",
+        "productId": "ec7b7496-12f5-4ae0-8f31-4cb79538c74c"
+      },
+      {
+        "name": "Domestic Bonds",
+        "productId": "0310d5ce-3ef1-4127-ae1c-9b3191d4cb5d"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "A coffee at a regional chain",
+    "description": "Low stress, but higher risk of burning your mouth. This profile blends bonds with domestic stocks to produce low risk, moderate gains. Consistency is key.",
+    "return": 0.07,
+    "risk": "Low-Moderate Risk",
+    "accounts": [
+      {
+        "name": "High-Yield CD",
+        "productId": "ec7b7496-12f5-4ae0-8f31-4cb79538c74c"
+      },
+      {
+        "name": "Domestic Bonds",
+        "productId": "0310d5ce-3ef1-4127-ae1c-9b3191d4cb5d"
+      },
+      {
+        "name": "Acme Stock Exchange",
+        "type": "investment"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Bartender’s choice mixed drink",
+    "description": "A higher risk of losing some money, but could end up being your new favorite drink. You can make money faster, but can also lose money if the economy starts to decline.",
+    "return": 0.23,
+    "risk": "Moderate-High Risk",
+    "accounts": [
+      {
+        "name": "Acme Stock Exchange",
+        "productId": "af22355d-5714-4826-9766-37b4127a5cfc"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "An Irish Car Bomb on St. Patrick’s day",
+    "description": "If you drink before the Bailey’s curdles, you are ahead of the game. If it sours, you may lose everything. You can make more money, but, if the market goes down, this could impact when you buy your house. If you are flexible, this may be the best option.",
+    "return": 0.42,
+    "risk": "Very High Risk",
+    "accounts": [
+      {
+        "name": "Acme Stock Exchange",
+        "productId": "a53165ce-2cb6-4cf4-8789-ecbe2c3a48d0"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Crypto Blitz",
+    "description": "Capitalize on the cryptocurrency craze. This is a rush, but may not end up well. If times are good, you can get your house in half the time. If times sour, you could lose it all!",
+    "return": 0.56,
+    "risk": "Insane Risk",
+    "accounts": [
+      {
+        "name": "Acme Crypto Exchange",
+        "productId": "aa4fed4e-7f50-4a66-940c-3c88c2f6a0c8"
+      }
+    ]
+  }
+]
