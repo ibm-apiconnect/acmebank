@@ -1,0 +1,22 @@
+---
+PORT: 4000
+logger:
+  level: trace
+customers:
+  url: http://localhost:4003/api
+accounts:
+  url: http://localhost:4001/api
+credit:
+  url: http://localhost:4002/api
+realEstate:
+  url: http://localhost:4006/api
+notifications:
+  url: http://localhost:4008/api
+documents:
+  url: http://localhost:4007/api
+investments:
+  url: http://localhost:4004/v1
+mortgages:
+  url: http://localhost:4005/v1
+admin:
+  url: http://localhost:4010/v1
