@@ -1,0 +1,15 @@
+---
+PORT: 4010
+logger:
+  level: trace
+customerId: 415ccafe-aea1-43ef-ba3a-756e98bb4b58
+customers:
+  url: http://localhost:4003/api
+accounts:
+  url: http://localhost:4001/api
+documents:
+  url: http://localhost:4007/api
+notifications:
+  url: http://localhost:4008/api
+investments:
+  url: http://localhost:4004/v1

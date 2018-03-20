@@ -1,0 +1,79 @@
+[
+  {
+    "id": 0,
+    "name": "Plain Jane",
+    "description": "This profiles uses a blend of guaranteed CDs and bonds to earn safe gains that you can count on.",
+    "return": 0.03,
+    "risk": "Very Low Risk",
+    "accounts": [
+      {
+        "name": "High-Yield CD",
+        "productId": "ec7b7496-12f5-4ae0-8f31-4cb79538c74c"
+      },
+      {
+        "name": "Domestic Bonds",
+        "productId": "0310d5ce-3ef1-4127-ae1c-9b3191d4cb5d"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Looking Towards Retirement",
+    "description": "This profile blends bonds with domestic stocks to produce low risk, moderate gains. Consistency is key.",
+    "return": 0.09,
+    "risk": "Low-Moderate Risk",
+    "accounts": [
+      {
+        "name": "High-Yield CD",
+        "productId": "ec7b7496-12f5-4ae0-8f31-4cb79538c74c"
+      },
+      {
+        "name": "Domestic Bonds",
+        "productId": "0310d5ce-3ef1-4127-ae1c-9b3191d4cb5d"
+      },
+      {
+        "name": "Acme Stock Exchange",
+        "type": "investment"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Domestic Day Trader",
+    "description": "Did you ever see 'The Big Short'? Same concept here. Looks to pump and dump positions in domestic markets at every possible chance.",
+    "return": 0.32,
+    "risk": "Moderate-High Risk",
+    "accounts": [
+      {
+        "name": "Acme Stock Exchange",
+        "productId": "af22355d-5714-4826-9766-37b4127a5cfc"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "International Stock Wizard",
+    "description": "Are you excited about Elbonia's new entry into financial markets? If so, you'll love this investment profile that looks to buy up stock in countries that do not have traditional financial safeguards in place. As Ben Franklin said, 'No pain, no gain'.",
+    "return": 0.65,
+    "risk": "Very High Risk",
+    "accounts": [
+      {
+        "name": "Acme Stock Exchange",
+        "productId": "a53165ce-2cb6-4cf4-8789-ecbe2c3a48d0"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Crypto Blitz",
+    "description": "This profile looks to capitalize on the insanity that is the cryptocurrency market. You'll buy into obscure altcoins as they hit the market and watch them go 'to the moon'!",
+    "return": 1.60,
+    "risk": "Insane Risk",
+    "accounts": [
+      {
+        "name": "Acme Crypto Exchange",
+        "productId": "aa4fed4e-7f50-4a66-940c-3c88c2f6a0c8"
+      }
+    ]
+  }
+]

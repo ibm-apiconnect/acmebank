@@ -1,0 +1,135 @@
+[
+  {
+    "type": "transfer",
+    "customerId": "415ccafe-aea1-43ef-ba3a-756e98bb4b58",
+    "description": "Transfer to Savings *5712",
+    "amount": -833.34,
+    "timestamp": "2018-01-31T10:00:00.000Z"
+  },
+  {
+    "type": "transfer",
+    "customerId": "415ccafe-aea1-43ef-ba3a-756e98bb4b58",
+    "description": "Transfer to Savings *5712",
+    "amount": -9433.17,
+    "timestamp": "2018-02-03T13:17:11.000Z"
+  },
+  {
+    "type": "deposit",
+    "customerId": "415ccafe-aea1-43ef-ba3a-756e98bb4b58",
+    "description": "AcmeSoftware - Payroll",
+    "amount": 4166.67,
+    "timestamp": "2018-03-15T00:00:00.000Z"
+  },
+  {
+    "type": "deposit",
+    "customerId": "415ccafe-aea1-43ef-ba3a-756e98bb4b58",
+    "description": "AcmeSoftware - Payroll",
+    "amount": 4166.67,
+    "timestamp": "2018-02-28T00:00:00.000Z"
+  },
+  {
+    "type": "transfer",
+    "customerId": "415ccafe-aea1-43ef-ba3a-756e98bb4b58",
+    "description": "Transfer to Savings *5712",
+    "amount": -833.34,
+    "timestamp": "2018-02-15T10:00:00.000Z"
+  },
+  {
+    "type": "expense",
+    "customerId": "415ccafe-aea1-43ef-ba3a-756e98bb4b58",
+    "description": "Duke Energy Progress",
+    "amount": -110.17,
+    "timestamp": "2018-03-03T08:00:00.000Z"
+  },
+  {
+    "type": "expense",
+    "customerId": "415ccafe-aea1-43ef-ba3a-756e98bb4b58",
+    "description": "CITY OF RALEIGH UTIL PAYMT ",
+    "amount": -61.76,
+    "timestamp": "2018-03-12T12:00:00.000Z"
+  },
+  {
+    "type": "deposit",
+    "customerId": "415ccafe-aea1-43ef-ba3a-756e98bb4b58",
+    "description": "AcmeSoftware - Payroll",
+    "amount": 4166.67,
+    "timestamp": "2018-01-15T00:00:00.000Z"
+  },
+  {
+    "type": "expense",
+    "customerId": "415ccafe-aea1-43ef-ba3a-756e98bb4b58",
+    "description": "Duke Energy Progress",
+    "amount": -92.72,
+    "timestamp": "2018-02-03T08:00:00.000Z"
+  },
+  {
+    "type": "deposit",
+    "customerId": "415ccafe-aea1-43ef-ba3a-756e98bb4b58",
+    "description": "AcmeSoftware - Payroll",
+    "amount": 4166.67,
+    "timestamp": "2018-01-31T00:00:00.000Z"
+  },
+  {
+    "type": "deposit",
+    "customerId": "415ccafe-aea1-43ef-ba3a-756e98bb4b58",
+    "description": "Initial Deposit",
+    "amount": 2500,
+    "timestamp": "2018-01-11T14:30:30.553Z"
+  },
+  {
+    "type": "expense",
+    "customerId": "415ccafe-aea1-43ef-ba3a-756e98bb4b58",
+    "description": "CITY OF RALEIGH UTIL PAYMT ",
+    "amount": -70.13,
+    "timestamp": "2018-02-12T12:00:00.000Z"
+  },
+  {
+    "type": "transfer",
+    "customerId": "415ccafe-aea1-43ef-ba3a-756e98bb4b58",
+    "description": "Transfer to Savings *5712",
+    "amount": -833.34,
+    "timestamp": "2018-03-15T10:00:00.000Z"
+  },
+  {
+    "type": "deposit",
+    "customerId": "415ccafe-aea1-43ef-ba3a-756e98bb4b58",
+    "description": "AcmeSoftware - Payroll",
+    "amount": 4166.67,
+    "timestamp": "2018-02-15T00:00:00.000Z"
+  },
+  {
+    "type": "expense",
+    "customerId": "415ccafe-aea1-43ef-ba3a-756e98bb4b58",
+    "description": "Check 207 - Rent",
+    "amount": -1250,
+    "timestamp": "2018-02-01T16:00:00.000Z"
+  },
+  {
+    "type": "expense",
+    "customerId": "415ccafe-aea1-43ef-ba3a-756e98bb4b58",
+    "description": "CITY OF RALEIGH UTIL PAYMT ",
+    "amount": -56.42,
+    "timestamp": "2018-01-12T12:00:00.000Z"
+  },
+  {
+    "type": "transfer",
+    "customerId": "415ccafe-aea1-43ef-ba3a-756e98bb4b58",
+    "description": "Transfer to Savings *5712",
+    "amount": -833.34,
+    "timestamp": "2018-01-15T10:00:00.000Z"
+  },
+  {
+    "type": "expense",
+    "customerId": "415ccafe-aea1-43ef-ba3a-756e98bb4b58",
+    "description": "Check 208 - Rent",
+    "amount": -1250,
+    "timestamp": "2018-03-01T16:00:00.000Z"
+  },
+  {
+    "type": "transfer",
+    "customerId": "415ccafe-aea1-43ef-ba3a-756e98bb4b58",
+    "description": "Transfer to Savings *5712",
+    "amount": -833.34,
+    "timestamp": "2018-02-28T10:00:00.000Z"
+  }
+]

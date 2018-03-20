@@ -1,0 +1,44 @@
+[
+  {
+    "type": "expense",
+    "customerId": "415ccafe-aea1-43ef-ba3a-756e98bb4b58",
+    "description": "Exxon",
+    "amount": -27.45,
+    "timestamp": "2018-03-01T11:21:00.000Z"
+  },
+  {
+    "type": "expense",
+    "customerId": "415ccafe-aea1-43ef-ba3a-756e98bb4b58",
+    "description": "Uber Technologies - Las Vegas, NV",
+    "amount": -18.02,
+    "timestamp": "2018-03-17T04:13:33.000Z"
+  },
+  {
+    "type": "expense",
+    "customerId": "415ccafe-aea1-43ef-ba3a-756e98bb4b58",
+    "description": "Exxon",
+    "amount": -31.17,
+    "timestamp": "2018-03-12T17:04:32.000Z"
+  },
+  {
+    "type": "expense",
+    "customerId": "415ccafe-aea1-43ef-ba3a-756e98bb4b58",
+    "description": "LAS - Quick Convenience",
+    "amount": -5.13,
+    "timestamp": "2018-03-17T03:48:02.000Z"
+  },
+  {
+    "type": "expense",
+    "customerId": "415ccafe-aea1-43ef-ba3a-756e98bb4b58",
+    "description": "RDU - Bruegger's Bagels",
+    "amount": -8.82,
+    "timestamp": "2018-03-16T22:12:10.000Z"
+  },
+  {
+    "type": "expense",
+    "customerId": "415ccafe-aea1-43ef-ba3a-756e98bb4b58",
+    "description": "LAS - Vending",
+    "amount": -3.04,
+    "timestamp": "2018-03-17T03:46:21.000Z"
+  }
+]
