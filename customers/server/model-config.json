@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "customer": {
+    "dataSource": "db",
+    "public": true,
+    "options": {
+      "remoting": {
+        "sharedMethods": {
+          "replaceOrCreate": false,
+          "exists": false,
+          "findOne": false,
+          "count": false,
+          "replaceById": false,
+          "createChangeStream": false,
+          "updateAll": false,
+          "upsertWithWhere": false
+        }
+      }
+    }
+  },
+  "program": {
+    "dataSource": "db",
+    "public": true,
+    "options": {
+      "remoting": {
+        "sharedMethods": {
+          "replaceOrCreate": false,
+          "exists": false,
+          "count": false,
+          "replaceById": false,
+          "createChangeStream": false,
+          "updateAll": false,
+          "upsertWithWhere": false,
+          "patchOrCreate": false
+        }
+      }
+    }
+  }
+}

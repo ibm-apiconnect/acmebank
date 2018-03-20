@@ -1,0 +1,59 @@
+{
+  "name": "program",
+  "plural": "programs",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "id": true,
+      "defaultFn": "uuidv4"
+    },
+    "customerId": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "eligible": {
+      "type": "boolean",
+      "default": true
+    },
+    "enrolled": {
+      "type": "boolean",
+      "default": false
+    },
+    "completed": {
+      "type": "boolean",
+      "default": false
+    },
+    "viewed": {
+      "type": "boolean",
+      "default": false
+    },
+    "consentSigned": {
+      "type": "boolean",
+      "default": false
+    },
+    "data": {
+      "type": "object"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "customerId": {
+      "type": "belongsTo",
+      "model": "customer",
+      "foreignKey": "id",
+      "options": {
+        "nestRemoting": false
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
