@@ -1,0 +1,33 @@
+rules:
+  indent:
+    - 2
+    - 2
+  quotes:
+    - 2
+    - single
+  linebreak-style:
+    - 2
+    - unix
+  semi:
+    - 2
+    - always
+  comma-dangle:
+    - 2
+    - always-multiline
+  keyword-spacing:
+    - 2
+    -
+      before: true
+      after: true
+  space-before-blocks:
+    - 2
+    - always
+  eol-last:
+    - 2
+    - always
+env:
+  node: true
+parserOptions:
+  sourceType: module
+  ecmaVersion: 8
+extends: 'eslint:recommended'

@@ -1,0 +1,45 @@
+{
+  "name": "product",
+  "plural": "products",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "id": true,
+      "defaultFn": "uuidv4"
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "require": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "apy": {
+      "type": "number",
+      "required": true
+    },
+    "fixedTerm": {
+      "type": "boolean"
+    },
+    "termLength": {
+      "type": "number"
+    },
+    "minDeposit": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
